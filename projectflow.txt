@@ -1,4 +1,8 @@
 1. create git repo and clone it.
 2. create mycode.py and add code to it. (save csv file in data folder)
 3. Do git add, commit, push before initiate to DVC.
-
+4. DVC initiate "dvc init"
+5. now do make "S3 bukcet" mkdir s3
+6. Now we do "dvc remotr add -d myremote s3" 
+7. Next "dvc add /data" get error solve this error 
+8. Again "dvc add /data"  after that do 'git add .gitignore data.dvc'
