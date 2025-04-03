@@ -6,3 +6,5 @@
 6. Now we do "dvc remotr add -d myremote s3" 
 7. Next "dvc add /data" get error solve this error 
 8. Again "dvc add /data"  after that do 'git add .gitignore data.dvc'
+9. Do 'dvc commit' and 'dvc push'
+10. Do a git-commit-push to mark this stage as first version of data
